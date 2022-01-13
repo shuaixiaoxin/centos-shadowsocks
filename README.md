@@ -41,7 +41,7 @@
     "fast_open":false
 }
 ```
-**管理shadowsocks**
+**管理shadowsocks**  
 #启动
 ```
 ssserver -c /etc/shadowsocks.json -d start
@@ -54,7 +54,7 @@ ssserver -c /etc/shadowsocks.json -d stop
 ```
 ssserver -c /etc/shadowsocks.json -d restart
 ```
-启动成功即可通过ss客户端使用。
+启动成功即可通过ss客户端使用。  
 
 **5.配置自启动(可选择)**  
 新建启动脚本文件/etc/systemd/system/shadowsocks.service，内容如下：  
